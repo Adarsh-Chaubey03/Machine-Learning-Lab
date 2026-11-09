@@ -41,9 +41,7 @@ int main() {
             printf("Error is %.0f\n", error);
 
             w[0] = w[0] + learning_rate * error * x[i][0];
-
             w[1] = w[1] + learning_rate * error * x[i][1];
-
             w[2] = w[2] + learning_rate * error * x[i][2];
 
             printf("Weight 0 = %.6f Weight 1 = %.6f Weight 2 = %.6f\n",
